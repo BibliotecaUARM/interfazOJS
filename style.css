@@ -17,7 +17,16 @@
 .menu_superior img {
     width: 200px;
 }
+.banner-principal {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.banner-principal img {
+    object-fit: cover;
+    width: 100%;
 
+}
 /* Menu hamburguesa */
 .nav-menu {
     display: flex;
