@@ -49,11 +49,6 @@
 }
 /* Fin hamburguesa */
 
-main h1 {
-    text-align: center;
-    text-shadow: h-offset v-offset blur color;
-    margin-bottom: 36px;
-}
 .container {
     display: flex;
     flex-direction: column;
@@ -148,7 +143,7 @@ hr {
 }
 
 @media (max-width: 1317px) {
-
+    
    
 }
 @media (max-width: 1024px) {
@@ -248,14 +243,13 @@ hr {
         flex-direction: column;
         align-items: center;
     }
-    .container_silex img {
+    .container_silex img, .container_lavoz img, .container_metanoia img  {
         object-fit: cover;
-        height: 350px;
+        margin: auto;
     }
     .container_silex_info {
         text-align: center;
         align-items: center;
-        text-align: justify;
         font-size: 12px;
         margin-left: 20px;
     }
@@ -276,7 +270,8 @@ hr {
         align-items: center;
         font-size: 12px;
         margin-left: 20px;
-        text-align: justify;  
+        gap: 10px;
+
     }
     .container_metanoia {
         flex-direction: column;
@@ -287,12 +282,13 @@ hr {
         align-items: center;
         font-size: 12px;
         margin-left: 20px;
-        text-align: justify;    
+        gap: 10px;
     }
     .container_metanoia img {
         object-fit: cover;
     }
     .container_metanoia { margin-bottom: 16px;}
+
     footer { gap:4px}
     footer { 
         display: flex;
