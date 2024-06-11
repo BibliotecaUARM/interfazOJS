@@ -141,11 +141,28 @@ hr {
     margin-left: 50px;
     margin-right: 50px;
 }
-
-@media (max-width: 1317px) {
-    
-   
+@media (min-width: 1599px) {
+    .menu_superior img { width: 300px;}
+    .menu_superior ul { font-size: 24px;}
+    .container_silex img,
+    .container_lavoz img,
+    .container_metanoia img { width: 400px;}
+    .container_silex_info p,
+    .container_lavoz p{
+        font-size: 24px;
+    }
+    .container_silex_info, .container_lavoz_info{
+        gap: 20px;
+    }
+    .container_metanoia_info p {
+        font-size: 20px;
+    }
+    .container_metanoia_info {
+        gap: 20px;
+    }
 }
+
+
 @media (max-width: 1024px) {
     .menu {gap: 20px;}
     .menu { margin-right: 20px;}
@@ -271,7 +288,6 @@ hr {
         font-size: 12px;
         margin-left: 20px;
         gap: 10px;
-
     }
     .container_metanoia {
         flex-direction: column;
